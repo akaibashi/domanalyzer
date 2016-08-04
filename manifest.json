@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Dom Analyzer",
+  "version": "1.0",
+  "description": "DOM is analyzed",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "file://*/*"
+  ],
+  "icons" : {
+    "128": "logo.png"
+  }
+}
